@@ -1,112 +1,108 @@
 <!DOCTYPE HTML>
 <html>
-   <head>
-       <title></title> chews big bolts</title>
-       <style>
-           body {
-               background: rgb(241, 5, 5);
-               color: rgb(251, 249, 249);
-               padding: 10px;
-               font-family: arial;
-           }
-           #all-contents {
-             max-width: 800px;
-               margin: auto;
-           }
-       
-           /* navigation menu */
-           nav {
-               background: rgb(0, 0, 0);
-              margin: 0 auto;
-               display: flex;
-               padding: 10px;
-           }
-           h1 {
-               display: flex;
-               align-items: center;
-               color: rgb(252, 0, 0);
-               flex: 1;
-               margin: 0;
-           }
-           #nav-ul {
-               list-style-image: none;
-           }
-           .nav-li {
-               display: inline-block;
-               padding: 0 10px;
-           }
-           a {
-               text-decoration: none;
-               color: rgb(255, 0, 0);
-           }
-       
-           /* main container area beneath menu */
-           main {
-               background: rgb(219, 190, 190);
-               display: flex;
-           }
-           .sidebar {
-               margin-right: 25px;
-               padding: 10px;
-           }
-           .sidebar-img {
-               width: 200px;
-           }
-           .content {
-               flex: 1;
-               padding: 15px;
-           }
-           #interests {
-               border: 4px rgb(11, 11, 11) ridge;
-               padding: 8px;
-           }
-           h2, h3 {
-               margin: 0px;
-           }
-        </style>
-   </head>
-  
-   <body>
-           <!-- All content goes here -->
-       <div id="all-content">
-       <nav>
-           <h1> chews bolts </h1>
-           <ul id="nav-ul">
-               <li class="nav-li">
-                 <a href="index.html"> Home </a>
-               </li>
-               <li>
-                 <a href="portfolio.html"> Portfolio </a>
-               </li>
-           </ul>
-          
-       </nav>
- 
-       <main>
-               <!-- Sidebar section -->
-               <div>
-                   <img src= data:image/jpeg;base64,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
-               </div>
-          
-               <!-- Content section -->
-               <div>
-                   <h2>Matthew Schweda
- 
-                   </h2>
-                   <p> NOMMA cadet
-                   </p>
-                   <!-- Interests section -->
-                   <div>
-                         <h3> Interests</h3>
-                         <ul>
-                           <li> Work </li>
-                           <li> girlfriend </li>
-                           <li> gaming</li>
-                       </ul>
-                   </div>
-               </div>
-       </main>
-       </div>
-   </body>
+<head>
+    <title>Matthew's website</title>
+    <style>
+        body {
+            background: #b50ae9;
+            color: rgb(45, 45, 45);
+            padding: 10px;
+            font-family: arial;
+        }
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+        }
+        /* navigation menu */
+        nav {
+            background: #821aa8;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            display: flex;
+            padding: 10px;
+        }
+        h1 {
+            display: flex;
+            align-items: center;
+            color: #e02d9e;
+            flex: 1;
+            margin: 0;
+        }
+        #nav-ul {
+            list-style-image: none;
+        }
+        .nav-li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        /* main container area beneath menu */
+        main {
+            background: rgb(156, 133, 68);
+            display: flex;
+        }
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        .sidebar-img {
+            width: 200px;
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+        #interests {
+            border: 4px rgb(0, 0, 0) ridge;
+            padding: 8px;
+        }
+        h2,
+        h3 {
+            margin: 0px;
+        }
+    </style>
+    </head>
+<body>
+    <!-- All content goes here -->
+    <div id="all-contents">
+        <nav>
+            <h1>Matthew's car dealership</h1>
+            <ul id="nav-ul">
+                <li class="nav-li">
+                    <a href="index.html"> Home </a>
+                </li>
+                <li class="nav-li">
+                    <a href="portfolio.html"> Portfolio </a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <!-- Sidebar section -->
+            <div class="sidebar">
+                <img class="sidebar-img"
+                    src="https://i.ytimg.com/vi/FnGM4ymYjxY/maxresdefault.jpg" alt="car" width="90" length="20">
+            </div>
+            <!-- Content section -->
+            <div class="content">
+                <h2>Matthew Schweda</h2>
+                <p>I go to NOMMA</p>
+                <!-- Interests section -->
+                <div id="interests">
+                    <h3>Owner of a business</h3>
+                    <h4> Slay</h4>
+                    <u1>
+                        <li>Work</li>
+                        <li>Friends</li>
+                        <li>Gaming</li>
+                    </u1>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
 </html>
- 
+
+</html>
